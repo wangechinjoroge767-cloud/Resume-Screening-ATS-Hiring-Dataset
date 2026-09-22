@@ -14,9 +14,6 @@ The main objective is not only to build a predictive model, but also to understa
 
 **Dataset:** Resume Screening & ATS Hiring Dataset (100k Records)
 
-**Source:** Kaggle  
-**Dataset creator:** mobeenfatimah
-
 The dataset contains:
 
 - 100,000 candidate records
