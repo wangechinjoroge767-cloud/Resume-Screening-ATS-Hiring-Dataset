@@ -1,7 +1,3 @@
-# Resume-Screening-ATS-Hiring-Dataset
-Machine learning project for analyzing resume screening and predicting candidate selection outcomes.
-
-
 # Resume Screening & ATS Hiring Prediction
 
 ## Project Overview
@@ -104,23 +100,3 @@ Deep Learning ANN
 Final Model Comparison
      ↓
 Interpretation & Conclusions
-| Logistic Regression | 80.65% | 80.31% | 81.19% | 80.75% |
-| Decision Tree | 78.24% | 77.97% | 78.73% | 78.35% |
-| Random Forest | 83.05% | 78.90% | 90.23% | 84.19% |
-| Gradient Boosting | **84.19%** | **81.55%** | 88.38% | **84.83%** |
-| Tuned Gradient Boosting | 84.16% | 81.44% | **88.48%** | 84.81% |
-
-Gradient Boosting produced the strongest overall baseline performance.
-
----
-
-## Hyperparameter Tuning
-
-Gradient Boosting was tuned using `GridSearchCV` with 3-fold cross-validation.
-
-The selected parameters were:
-
-```text
-n_estimators = 200
-learning_rate = 0.05
-max_depth = 3
